@@ -13,7 +13,6 @@ import hashlib
 import codecs
 import sys
 import os
-from isort.wrap import line
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-t", "--type", dest = "type", required = True, choices = ["md5", "sha1", "sha256", "sha512"], help = "Hash type.")
